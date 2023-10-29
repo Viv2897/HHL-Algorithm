@@ -55,7 +55,7 @@ $$U\ket{b}=U\left(\sum_{j=0}^{N+1}  b_{j} \ket{u_{j}}\right) $$
 $$= \sum_{j=0}^{N+1}  e^{i\lambda_{j}t} \ket{u_{j}} \bra{u_{j}} \left(\sum_{j=0}^{N+1}  b_{j} \ket{u_{j}}\right)$$
 $$= \sum_{j=0}^{N+1}  b_{j} e^{i\lambda_{j}t} \ket{u_{j}}$$
 Then, using quantum phase estimation, we can find the quantum state $\ket{\lambda_{j}}$ of $\lambda_{j}$. The quantum state of the register expressed in the eigenbasis of A is now <br />
-$`\sum^{N+1}_{j=0} \ket{0}_{nl} = \ket{b}_{nb}`$ 
+$\sum^{N+1}_{j=0} ` \ket{0}_{nl} = \ket{b}_{nb}`$ 
 
 - Use of auxiliary qubits 
 Controlled rotation operation is done on auxiliary qubit conditioned on $\ket{\lambda_{j}}$ for eigen value inversion,
