@@ -2,7 +2,7 @@
 
 There are 5 stages involved in HHL algorithm:
 - Loading the data:
-$`\ket{0}  --> \ket{b}`$
+$`\ket{0}_{nb}  --> \ket{b}`$
 $$\ket{0}  --> \ket{b} $$
 
 - Applying QPE:
