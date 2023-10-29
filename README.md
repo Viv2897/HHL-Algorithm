@@ -3,7 +3,7 @@
 There are 5 stages involved in HHL algorithm:
 - Loading the data: <br />
   
-$`\ket{0}_{nb} \rightarrow \ket{b}_{nb}`$
+                          $`\ket{0}_{nb} \rightarrow \ket{b}_{nb}`$
 
 
 
