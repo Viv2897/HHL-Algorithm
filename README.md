@@ -41,11 +41,11 @@ $$ \ket{b} = \sum_{j=0}^{N+1} b_{j} \ket{u_{j}} \bra{u_{j}} $$
 In the end, we would like to obtain the following equation as the output,
 
 $$ \ket{x} = A^{-1}\ket{b} = \sum_{j=0}^{N+1} \lambda_{j}^{-1} b_{j} \ket{u_{j}} $$
+$$ A = \sum_{j=0}^{N+1} \lambda_{j} \ket{u_{j}} \bra{u_{j}} $$
 
 <img src="https://github.com/Viv2897/HHL-Algorithm/blob/main/HHL%20circuit.png" width=50% height=50%>
 
 There are 5 stages involved in HHL algorithm:
-$$ A = \sum_{j=0}^{N+1} \lambda_{j} \ket{u_{j}} \bra{u_{j}} $$
 - Loading the data:
 $$\ket{0}<sub>nb</sub>  \rightarrow \ket{b}<sub>nb</sub> $$
 
