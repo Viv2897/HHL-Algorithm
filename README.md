@@ -55,7 +55,7 @@ $$U\ket{b}=U\left(\sum_{j=0}^{N+1}  b_{j} \ket{u_{j}}\right) $$
 $$= \sum_{j=0}^{N+1}  e^{i\lambda_{j}t} \ket{u_{j}} \bra{u_{j}} \left(\sum_{j=0}^{N+1}  b_{j} \ket{u_{j}}\right)$$
 $$= \sum_{j=0}^{N+1}  b_{j} e^{i\lambda_{j}t} \ket{u_{j}}$$
 Then, using quantum phase estimation, we can find the quantum state $\ket{\lambda_{j}}$ of $\lambda_{j}$. The quantum state of the register expressed in the eigenbasis of A is now
-$$ `QPE(\sum_{j=0}^{N+1}  b_{j} \ket{0}<sub>nl</sub> \ket{u_{j}}<sub>nb</sub>) = \sum_{j=0}^{N+1}  b_{j}\ket{\lambda_{j}}<sub>nl</sub> \ket{u_{j}}<sub>nb</sub> `$$
+$ `QPE(\sum_{j=0}^{N+1}  b_{j} \ket{0}_{nl} \ket{u_{j}}_{nb}) = \sum_{j=0}^{N+1}  b_{j}\ket{\lambda_{j}}_{nl} \ket{u_{j}}_{nb} `$
 
 
 - Use of auxiliary qubits 
