@@ -45,7 +45,7 @@ $$ \ket{x} = A^{-1}\ket{b} = \sum_{j=0}^{N+1} \lambda_{j}^{-1} b_{j} \ket{u_{j}}
 There are 5 stages involved in HHL algorithm:
 - Loading the data:   <br />
   
-&emsp;   $`\ket{0}_{nb} \rightarrow \ket{b}_{nb}`$  
+&ensp;   $`\ket{0}_{nb} \rightarrow \ket{b}_{nb}`$  
 
 
 
