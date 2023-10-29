@@ -3,13 +3,13 @@
 There are 5 stages involved in HHL algorithm:
 - Loading the data:   <br />
   
-_  _ $`\ket{0}_{nb} \rightarrow \ket{b}_{nb}`$
+$`\ket{0}_{nb} \rightarrow \ket{b}_{nb}`$
 
 
 
 - Applying QPE:
-If we let U act on $\ket{b}$ : 
-$$U\ket{b}=U\left(\sum_{j=0}^{N+1}  b_{j} \ket{u_{j}}\right) $$
+If we let U act on $\ket{b}$ : <br />
+$ `U\ket{b}=U\left(\sum_{j=0}^{N+1}  b_{j} \ket{u_{j}}\right) `$
 $$= \sum_{j=0}^{N+1}  e^{i\lambda_{j}t} \ket{u_{j}} \bra{u_{j}} \left(\sum_{j=0}^{N+1}  b_{j} \ket{u_{j}}\right)$$
 $$= \sum_{j=0}^{N+1}  b_{j} e^{i\lambda_{j}t} \ket{u_{j}}$$
 Then, using quantum phase estimation, we can find the quantum state $\ket{\lambda_{j}}$ of $\lambda_{j}$. The quantum state of the register expressed in the eigenbasis of A is now
