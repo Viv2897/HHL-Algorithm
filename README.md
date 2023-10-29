@@ -47,8 +47,9 @@ $$ \ket{x} = A^{-1}\ket{b} = \sum_{j=0}^{N+1} \lambda_{j}^{-1} b_{j} \ket{u_{j}}
 <img src="https://github.com/Viv2897/HHL-Algorithm/blob/main/HHL%20circuit.png" width=50% height=50%>
 
 There are 5 stages involved in HHL algorithm:
-
+<sub>nb</sub>
 - Loading the data:
+$$ \ket{0} = A^{-1}\ket{b} = \sum_{j=0}^{N+1} \lambda_{j}^{-1} b_{j} \ket{u_{j}} $$
 $$ \ket{0}  ---> \ket{b} $$
 - Applying QPE:
 If we let U act on $\ket{b}$ : 
