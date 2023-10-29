@@ -47,17 +47,17 @@ $$ \ket{x} = A^{-1}\ket{b} = \sum_{j=0}^{N+1} \lambda_{j}^{-1} b_{j} \ket{u_{j}}
 <img src="https://github.com/Viv2897/HHL-Algorithm/blob/main/HHL%20circuit.png" width=50% height=50%>
 
 There are 5 stages involved in HHL algorithm:
-<sub>nb</sub>
+
 - Loading the data:
-$$ \ket{0} = A^{-1}\ket{b} = \sum_{j=0}^{N+1} \lambda_{j}^{-1} b_{j} \ket{u_{j}} $$
-$$ \ket{0}  ---> \ket{b} $$
+$$\ket{0}<sub>nb</sub>  \rightarrow \ket{b}<sub>nb</sub> $$
+
 - Applying QPE:
 If we let U act on $\ket{b}$ : 
 $$U\ket{b}=U\left(\sum_{j=0}^{N+1}  b_{j} \ket{u_{j}}\right) $$
 $$= \sum_{j=0}^{N+1}  e^{i\lambda_{j}t} \ket{u_{j}} \bra{u_{j}} \left(\sum_{j=0}^{N+1}  b_{j} \ket{u_{j}}\right)$$
 $$= \sum_{j=0}^{N+1}  b_{j} e^{i\lambda_{j}t} \ket{u_{j}}$$
 Then, using quantum phase estimation, we can find the quantum state $\ket{\lambda_{j}}$ of $\lambda_{j}$. The quantum state of the register expressed in the eigenbasis of A is now
-$$ QPE(\sum_{j=0}^{N+1}  b_{j} \ket{0}_{nl}\ket{u_{j}}_{nb}) = \sum_{j=0}^{N+1}  b_{j}\ket{\lambda_{j}}_{nl} \ket{u_{j}}_{nb}$$
+$$ QPE(\sum_{j=0}^{N+1}  b_{j} \ket{0}<sub>nl</sub> \ket{u_{j}}<sub>nb</sub>) = \sum_{j=0}^{N+1}  b_{j}\ket{\lambda_{j}}<sub>nl</sub> \ket{u_{j}}<sub>nb</sub>$$
 
 
 - Use of auxiliary qubits 
@@ -67,10 +67,10 @@ where C is a normalisation constant.
 
 - Applying inverse QPE 
 The inverse of quantum phase estimation gives us the following.
-$$\sum_{j=0}^{N+1}  b_{j}\ket{0}_{nl}\ket{u_{j}}_{nb} (\sqrt{1-C^2/\lambda_{j}}\ket{0}+C/\lambda_{j}\ket{1})$$
+$$\sum_{j=0}^{N+1}  b_{j}\ket{0}<sub>nl</sub> \ket{u_{j}}<sub>nb</sub> (\sqrt{1-C^2/\lambda_{j}}\ket{0}+C/\lambda_{j}\ket{1})$$
 - Measuring auxiliary qubit 
 Measure the auxiliary qubit, and if $\ket{1}$ is measured, then we get
-$$\left(\sqrt{\frac{1}{\sum_{j=0}^{N+1}  |{b_{j}}|^2/|{\lambda_{j}}|^2}}\right)\sum_{j=0}^{N+1} \frac{b_{j}}{\lambda_{j}}\ket{0}_{nl}\ket{u_{j}}_{nb}$$
+$$\left(\sqrt{\frac{1}{\sum_{j=0}^{N+1}  |{b_{j}}|^2/|{\lambda_{j}}|^2}}\right)\sum_{j=0}^{N+1} \frac{b_{j}}{\lambda_{j}}\ket{0}<sub>nl</sub>\ket{u_{j}}<sub>nb</sub>$$
 which up to a normalisation factor corresponds to the solution
 
 ### References
