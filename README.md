@@ -3,7 +3,7 @@
 There are 5 stages involved in HHL algorithm:
 - Loading the data:
 $$\ket{0}<sub>nb</sub>  \rightarrow \ket{b}<sub>nb</sub> $$
-$$\ket{b}=b_{j} \ket{u_{j}}\right) $$
+$$\ket{b}=b_{j} \ket{u_{j}} $$
 
 - Applying QPE:
 If we let U act on $\ket{b}$ : 
